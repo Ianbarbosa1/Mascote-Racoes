@@ -1,0 +1,468 @@
+* {
+    margin: 0 auto;
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family:sans-serif;
+}
+
+
+body::before { 
+    background-image:url(./IMAGENS/fundos/fundo\ 2\ .png);
+    content:"";
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    position:fixed;
+    z-index: -1;
+    height: 100%;
+    width: 100%;
+    opacity:10%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+
+.logo {
+    height: 90px;
+    width: 200px;
+    display: flex;
+    justify-content: left;
+}
+.logo img {
+    border-radius: 50px;
+
+}
+
+/*menu de navegação vertical*/
+.navegacao a {
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    color:white;
+    margin-left: 20px;
+    padding-bottom:34px;
+    padding-top:34px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 10px;
+}
+.navegacao a:hover {
+    border-bottom:2px solid rgb(49, 57, 163);
+    color: black;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-image: linear-gradient(rgb(12, 89, 255), rgb(66,179,229), rgb(95,188,219));
+}
+
+
+
+.fundo-inicial {
+    height: 595px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+}
+.fundo-inicial img {
+    height: 595px;
+    width: 100vw;
+    z-index: -1;
+}
+.titulo-fundo{
+    position:absolute;
+    margin-left: 750px;
+    color: white;
+}
+.titulo-fundo img{
+    height: 140px;
+    width: 400px;
+}
+
+.titulo-fundo1{
+    position:absolute;
+    margin-left: 1262px;
+    margin-top: 500px;
+    color: white;
+}
+.direitos{
+    display: flex;
+    align-items: end;
+}
+.direitos a {
+    font-family: 'Shantell Sans', cursive;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 500;
+}
+
+
+
+.container-light {
+    width: 1000px;
+    background-color:rgb(221,221,221);
+}
+.titulo-global {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(58, 55, 55);
+    padding-top: 25px;
+}
+.titulo-global h2{
+    padding: 0px;
+    border-bottom: 2px solid rgb(12,183,255);
+}
+
+
+.lojas{
+    display: flex;
+    gap: 50px;
+    height: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.imperial {
+    background-color: rgba(255, 255, 255, 0);
+    padding: 10px;
+    text-align: center;
+    height:270px;
+    width: 400px;
+    border: 1px solid rgb(12,183,255);
+    border-radius: 50px;
+    
+}
+.titulo {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-bottom: 15px;
+}
+
+.endereco{
+    text-align:start;
+    padding: 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.horarios{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;  
+    font-size: 14px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.dias {
+    border-right:1px solid black;
+    padding: 10px;
+}
+.dias1{
+    padding: 10px;
+}
+
+
+.areal {
+    background-color: rgba(255, 255, 255, 0.233);
+    padding: 10px;
+    text-align: center;
+    height:300px;
+    width: 400px;
+    border: 1px solid rgb(12,183,255);
+    border-radius: 50px;
+}
+
+.mapa{
+    width: 100%;
+    height: 350px;
+    gap: 50px;
+    display: flex;
+
+}
+
+.mapa iframe{
+    height: 300px;
+    width: 400px;
+    border: 0px;
+    border-radius: 25px;
+}
+
+
+.compra{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.compra a {
+    padding: 10px 20px;
+    background-color: rgb(66,179,229);
+    color: white;
+    text-decoration: none;
+    border-radius: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+.compra a:hover {
+    color: black;
+}
+
+
+
+.container-black {
+    width: 1000px;
+    background-color:rgb(0, 0, 0);
+    height:700px;
+}
+.titulo-global-b {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(221,221,221);
+    padding-top: 70px;
+}
+.titulo-global-b h2{
+    padding: 10px 0px;
+    border-bottom: 2px solid rgb(12,183,255);
+    margin-bottom:100px ;
+}
+
+.racoes-produtos {
+    display: flex;
+    justify-content: center;
+}
+.racoes {
+    width: 240px;
+    text-align: center;
+    border-right: 2px solid white;
+    color: white;
+    font-family:'Trebuchet MS', sans-serif;
+}
+.racoes:last-child {
+    border-right: none;
+}
+.racoes h3 {
+    padding: 1px 0px;
+    border-bottom: 1px solid rgb(12,183,255); 
+    width: 100px;
+    margin-bottom: 20px;
+}
+.racoes img {
+    height: 200px;
+    border-radius: 30px;
+}
+.racoes p {
+    font-size: 15px;
+    padding: 10px;
+    margin-bottom:10px ;
+}
+
+
+.titulo-global-c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(0, 0, 0);
+    padding-top: 25px;
+}
+.titulo-global-c h2{
+    padding: 10px 0px;
+    border-bottom: 2px solid rgb(12,183,255);
+    margin-bottom:65px ;
+}
+
+.medicamentos-produtos {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.medicamentos {
+    width: 240px;
+    text-align: center;
+    border-right: 2px solid rgb(12,183,255);
+    color: rgb(61, 61, 61);
+    font-family:'Trebuchet MS', sans-serif;
+}
+.medicamentos:last-child {
+    border-right: none;
+}
+.medicamentos h3 {
+    padding: 1px 0px;
+    border-bottom: 1px solid rgb(12,183,255); 
+    width: 135px;
+    margin-bottom: 20px;
+
+}
+.medicamentos img {
+    height: 200px;
+    border-radius: 30px;
+}
+.medicamentos p {
+    font-size: 15px;
+    padding: 10px;
+}
+.bula {
+    margin-top: 10px;
+}
+
+.bula a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 30px;
+    background-color:rgb(49,86,163);
+    border-radius: 20px;
+}
+
+
+
+.suplementos-produtos {
+    display: flex;
+    justify-content: center;
+    
+
+}
+.suplementos {
+    width: 240px;
+    text-align: center;
+    border-right: 2px solid white;
+    color: white;
+    font-family:'Trebuchet MS', sans-serif;
+}
+.suplementos:last-child {
+    border-right: none;
+}
+.suplementos h3 {
+    padding: 1px 0px;
+    border-bottom: 1px solid rgb(12,183,255); 
+    width: 100px;
+    margin-bottom: 20px;
+}
+.suplementos img {
+    height: 200px;
+    border-radius: 30px;
+}
+.suplementos p {
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+
+
+
+.agro-produtos {
+    display: flex;
+    justify-content: center;
+
+}
+.agro {
+    width: 350px;
+    text-align: center;
+    border-right: 2px solid rgb(12,183,255);
+    color: rgb(61, 61, 61);
+    font-family:'Trebuchet MS', sans-serif;
+}
+.agro:last-child {
+    border-right: none;
+}
+.agro h3 {
+    padding: 1px 0px;
+    border-bottom: 1px solid rgb(12,183,255); 
+    width: 135px;
+    margin-bottom: 20px;
+
+}
+.agro img {
+    height: 200px;
+    border-radius: 30px;   
+}
+.equinos {
+    width:200px;    
+}
+
+.agro p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+
+
+.vacina-produtos {
+    display: flex;
+    justify-content: center;
+}
+.vacina {
+    width: 240px;
+    text-align: center;
+    border-right: 2px solid white;
+    color: white;
+    font-family:'Trebuchet MS', sans-serif;
+}
+.vacina:last-child {
+    border-right: none;
+}
+.vacina h3 {
+    padding: 1px 0px;
+    border-bottom: 1px solid rgb(12,183,255); 
+    width: 160Px;
+    margin-bottom: 20px;
+}
+.vacina img {
+    height: 200px;
+    border-radius: 30px;
+    width: 210px;
+}
+.vacina p {
+    font-size: 15px;
+    padding: 10px;
+}
+
+footer {
+    height: 100px;
+    background-image: linear-gradient(  rgb(12,183,255), rgb(66,179,229));
+    display: flex;
+}
+
+
+
+.border{ 
+    height: 70px;
+    width: 2px;
+    background-color: white;
+
+}
+
+.end {
+    display: flex;
+    font-size: 12px;
+    color: rgb(5, 5, 5);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top:17px ;
+    gap: 30px;
+    
+}
+
+.end img {
+    height: 50px;
+    width:200px;
+    margin-left: 20px;
+}
+
+.ian {
+    display: flex;
+    margin-top: 70px;
+    margin-left: 800px;
+    width: 10%;
+    font-family:cursive;
+    font-size: 10px;
+    color: white;
+    position: absolute;
+}
