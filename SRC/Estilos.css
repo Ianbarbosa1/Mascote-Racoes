@@ -149,19 +149,24 @@ body::before {
 .endereco{
     text-align:start;
     padding: 5px;
+    font-size: 13px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .horarios{
     display: flex;
     justify-content: center;
-    margin-bottom: 10px;  
-    font-size: 14px;
+    margin-bottom: 5px;  
+    font-size: 13px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .dias {
     border-right:1px solid black;
-    padding: 10px;
+    padding:10px;
+}
+.dias0 {
+    border-right:1px solid black;
+    padding:15px 15px 10px 10px;
 }
 .dias1{
     padding: 10px;
